@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>796ddf179a944b529d99a0b0dc711453</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="c59SGhYKXODI">
+<p><strong>1. Introduction</strong>:</p>
+<p>In this report, relations between 3 datasets taken from EVDS are
+examined. Datasets taken from EVDS are unemployment rates, consumer
+confidence index and business closure rates. Even though the correlation
+between each dataset is less than 0.5, it's worthwhile to examine how
+these datasets interact with eachother since high unemployment rates can
+lead to reduced consumer confidence and spending, which can, in turn,
+result in higher level of business closures. Conversely, improved
+employment rates can improve consumer confidence thus stimulate economic
+activity and reduce business closures.</p>
+</div>
+<div class="cell code" id="of7a3dAsRLHR">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;openxlsx&quot;)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;ggplot2&quot;)</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;skimr&quot;)</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;forecast&quot;)</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;data.table&quot;)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;GGally&quot;)</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;ggcorrplot&quot;)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;lubridate&quot;)</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="Y5UG-S57S5zR">
+<p>Importing Packages</p>
+</div>
+<div class="cell code" data-execution_count="84" id="WEnYpdt7ROek">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>require(openxlsx)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>require(ggplot2)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>require(data.table)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>require(skimr)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>require(GGally)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>require(ggcorrplot)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>require(forecast)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>require(lubridate)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="EaY3VpySS7Sd">
+<p>Reading the Datafile.</p>
+</div>
+<div class="cell code" data-execution_count="85"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:283}"
+id="Sh2Z6klPRSge" data-outputId="5720fd9e-a379-4a5a-8e1a-198fcce8f959">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>all_data <span class="op">&lt;-</span> read.xlsx(<span class="st">&quot;EVDS.xlsx&quot;</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>head(all_data)</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.frame: 6 × 7</caption>
+<thead>
+	<tr><th></th><th scope=col>Tarih</th><th scope=col>TPYISGUCU2G8</th><th scope=col>TPTG2Y01</th><th scope=col>TPKAP2TOP.A</th><th scope=col>ihtiyac.kredisi</th><th scope=col>is.ilani</th><th scope=col>dusen.hisseler</th></tr>
+	<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><th scope=row>1</th><td>2014-01</td><td>10.5</td><td>91.53853</td><td>2892</td><td>5</td><td>42</td><td>6</td></tr>
+	<tr><th scope=row>2</th><td>2014-02</td><td>10.5</td><td>89.21453</td><td>1181</td><td>4</td><td>45</td><td>5</td></tr>
+	<tr><th scope=row>3</th><td>2014-03</td><td> 9.4</td><td>92.42525</td><td>1073</td><td>4</td><td>38</td><td>0</td></tr>
+	<tr><th scope=row>4</th><td>2014-04</td><td> 8.8</td><td>97.36987</td><td> 937</td><td>4</td><td>40</td><td>0</td></tr>
+	<tr><th scope=row>5</th><td>2014-05</td><td> 8.4</td><td>95.11075</td><td> 968</td><td>4</td><td>39</td><td>0</td></tr>
+	<tr><th scope=row>6</th><td>2014-06</td><td> 9.0</td><td>93.49903</td><td>1120</td><td>6</td><td>45</td><td>3</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:283}"
+id="NE0zlGANTNL2" data-outputId="38af06a7-5ff9-49c0-cc0e-12f5bbefe1ba">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>all_data <span class="op">&lt;-</span> all_data[<span class="dv">1</span>:<span class="dv">120</span>,] <span class="co"># Get rid of the explanation lines and trim last data which is only data in 2024 on the bottom of the excel file.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>head(all_data)</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.frame: 6 × 7</caption>
+<thead>
+	<tr><th></th><th scope=col>Tarih</th><th scope=col>TPYISGUCU2G8</th><th scope=col>TPTG2Y01</th><th scope=col>TPKAP2TOP.A</th><th scope=col>ihtiyackredisi</th><th scope=col>isilani</th><th scope=col>dusenhisseler</th></tr>
+	<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><th scope=row>1</th><td>2014-01</td><td>10.5</td><td>91.53853</td><td>2892</td><td>5</td><td>42</td><td>6</td></tr>
+	<tr><th scope=row>2</th><td>2014-02</td><td>10.5</td><td>89.21453</td><td>1181</td><td>4</td><td>45</td><td>5</td></tr>
+	<tr><th scope=row>3</th><td>2014-03</td><td> 9.4</td><td>92.42525</td><td>1073</td><td>4</td><td>38</td><td>0</td></tr>
+	<tr><th scope=row>4</th><td>2014-04</td><td> 8.8</td><td>97.36987</td><td> 937</td><td>4</td><td>40</td><td>0</td></tr>
+	<tr><th scope=row>5</th><td>2014-05</td><td> 8.4</td><td>95.11075</td><td> 968</td><td>4</td><td>39</td><td>0</td></tr>
+	<tr><th scope=row>6</th><td>2014-06</td><td> 9.0</td><td>93.49903</td><td>1120</td><td>6</td><td>45</td><td>3</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:283}"
+id="pay0cbpQTZxp" data-outputId="af66a56c-6172-4425-fd21-01688974fe5d">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Converting numeric data&#39;s datatype.</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>all_data$TPYISGUCU2G8<span class="op">&lt;-</span><span class="im">as</span>.numeric(all_data$TPYISGUCU2G8)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>all_data$TPTG2Y01<span class="op">&lt;-</span><span class="im">as</span>.numeric(all_data$TPTG2Y01)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>all_data$TPKAP2TOP.A<span class="op">&lt;-</span><span class="im">as</span>.numeric(all_data$TPKAP2TOP.A)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>head(all_data)</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.frame: 6 × 7</caption>
+<thead>
+	<tr><th></th><th scope=col>Tarih</th><th scope=col>TPYISGUCU2G8</th><th scope=col>TPTG2Y01</th><th scope=col>TPKAP2TOP.A</th><th scope=col>ihtiyackredisi</th><th scope=col>isilani</th><th scope=col>dusenhisseler</th></tr>
+	<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><th scope=row>1</th><td>2014-01</td><td>10.5</td><td>91.53853</td><td>2892</td><td>5</td><td>42</td><td>6</td></tr>
+	<tr><th scope=row>2</th><td>2014-02</td><td>10.5</td><td>89.21453</td><td>1181</td><td>4</td><td>45</td><td>5</td></tr>
+	<tr><th scope=row>3</th><td>2014-03</td><td> 9.4</td><td>92.42525</td><td>1073</td><td>4</td><td>38</td><td>0</td></tr>
+	<tr><th scope=row>4</th><td>2014-04</td><td> 8.8</td><td>97.36987</td><td> 937</td><td>4</td><td>40</td><td>0</td></tr>
+	<tr><th scope=row>5</th><td>2014-05</td><td> 8.4</td><td>95.11075</td><td> 968</td><td>4</td><td>39</td><td>0</td></tr>
+	<tr><th scope=row>6</th><td>2014-06</td><td> 9.0</td><td>93.49903</td><td>1120</td><td>6</td><td>45</td><td>3</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell markdown" id="xRRFeqwgSzMh">
+<p>First start by finding the correlation of 3 datasets among each
+other.</p>
+<p>With openxlsx col functions</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="4E7xLM2NT8xa" data-outputId="ff4fbdcf-7cd2-4045-b8d2-5b1c7935f31d">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>unemployment <span class="op">&lt;-</span> all_data$TPYISGUCU2G8</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>cci <span class="op">&lt;-</span> all_data$TPTG2Y01</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>comp <span class="op">&lt;-</span> all_data$TPKAP2TOP.A</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine all datasets into a data frame</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>data <span class="op">&lt;-</span> data.frame(unemployment, cci, comp)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate correlation matrix</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">&lt;-</span> cor(data)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Print correlation matrix</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(correlation_matrix)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>             unemployment        cci       comp
+unemployment    1.0000000 -0.2131913 -0.1207401
+cci            -0.2131913  1.0000000 -0.3671882
+comp           -0.1207401 -0.3671882  1.0000000
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="CMAJeK5U4_Yf">
+<p>Manuel correction of the openxlsx col function.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="JNsBnblYr2fM" data-outputId="9ae4c848-200b-4277-dc86-2b103fb11ead">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># First dataset: Unemployment rate</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>unemployment <span class="op">&lt;-</span> c(<span class="fl">10.50</span>, <span class="fl">10.50</span>, <span class="fl">9.40</span>, <span class="fl">8.80</span>, <span class="fl">8.40</span>, <span class="fl">9.00</span>, <span class="fl">9.70</span>, <span class="fl">10.10</span>, <span class="fl">10.10</span>, <span class="fl">10.90</span>, <span class="fl">10.40</span>,</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">10.80</span>, <span class="fl">11.90</span>, <span class="fl">11.70</span>, <span class="fl">10.40</span>, <span class="fl">9.60</span>, <span class="fl">8.90</span>, <span class="fl">9.60</span>, <span class="fl">10.00</span>, <span class="fl">10.00</span>, <span class="fl">10.30</span>, <span class="fl">10.50</span>,</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">10.20</span>, <span class="fl">10.90</span>, <span class="fl">11.50</span>, <span class="fl">11.00</span>, <span class="fl">10.10</span>, <span class="fl">9.10</span>, <span class="fl">9.00</span>, <span class="fl">10.10</span>, <span class="fl">11.00</span>, <span class="fl">11.00</span>, <span class="fl">11.80</span>,</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">11.90</span>, <span class="fl">11.60</span>, <span class="fl">12.80</span>, <span class="fl">13.50</span>, <span class="fl">12.90</span>, <span class="fl">11.70</span>, <span class="fl">10.50</span>, <span class="fl">9.70</span>, <span class="fl">10.40</span>, <span class="fl">10.60</span>, <span class="fl">10.60</span>,</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">10.40</span>, <span class="fl">10.50</span>, <span class="fl">10.00</span>, <span class="fl">10.30</span>, <span class="fl">11.00</span>, <span class="fl">10.80</span>, <span class="fl">9.80</span>, <span class="fl">9.30</span>, <span class="fl">9.40</span>, <span class="fl">10.20</span>, <span class="fl">10.70</span>, <span class="fl">11.10</span>,</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">11.40</span>, <span class="fl">11.70</span>, <span class="fl">12.00</span>, <span class="fl">13.30</span>, <span class="fl">15.10</span>, <span class="fl">15.00</span>, <span class="fl">13.90</span>, <span class="fl">12.90</span>, <span class="fl">12.50</span>, <span class="fl">13.40</span>, <span class="fl">14.10</span>, <span class="fl">14.20</span>,</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">14.00</span>, <span class="fl">13.30</span>, <span class="fl">12.90</span>, <span class="fl">13.60</span>, <span class="fl">14.10</span>, <span class="fl">13.50</span>, <span class="fl">13.00</span>, <span class="fl">12.80</span>, <span class="fl">12.60</span>, <span class="fl">13.00</span>, <span class="fl">14.60</span>, <span class="fl">13.00</span>,</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">12.40</span>, <span class="fl">12.80</span>, <span class="fl">12.90</span>, <span class="fl">13.00</span>, <span class="fl">13.40</span>, <span class="fl">14.10</span>, <span class="fl">13.10</span>, <span class="fl">12.90</span>, <span class="fl">12.40</span>, <span class="fl">10.40</span>, <span class="fl">12.10</span>, <span class="fl">12.00</span>,</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">11.10</span>, <span class="fl">10.70</span>, <span class="fl">10.90</span>, <span class="fl">11.30</span>, <span class="fl">12.10</span>, <span class="fl">11.40</span>, <span class="fl">11.40</span>, <span class="fl">10.60</span>, <span class="fl">10.10</span>, <span class="fl">9.70</span>, <span class="fl">10.60</span>, <span class="fl">9.80</span>,</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">9.90</span>, <span class="fl">9.90</span>, <span class="fl">9.90</span>, <span class="fl">10.40</span>, <span class="fl">10.30</span>, <span class="fl">10.70</span>, <span class="fl">10.20</span>, <span class="fl">10.00</span>, <span class="fl">8.80</span>, <span class="fl">9.00</span>, <span class="fl">9.70</span>, <span class="fl">9.20</span>, <span class="fl">8.90</span>,</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>                  <span class="fl">8.20</span>, <span class="fl">8.80</span>, <span class="fl">8.90</span>, <span class="fl">9.80</span>)</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Second dataset: consumer confidence index</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>cci  <span class="op">&lt;-</span> c(<span class="fl">91.54</span>, <span class="fl">89.21</span>, <span class="fl">92.43</span>, <span class="fl">97.37</span>, <span class="fl">95.11</span>, <span class="fl">93.50</span>, <span class="fl">93.73</span>, <span class="fl">93.65</span>, <span class="fl">94.02</span>, <span class="fl">91.43</span>, <span class="fl">90.87</span>,</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>          <span class="fl">90.15</span>, <span class="fl">89.35</span>, <span class="fl">88.80</span>, <span class="fl">86.49</span>, <span class="fl">87.42</span>, <span class="fl">86.80</span>, <span class="fl">89.63</span>, <span class="fl">88.24</span>, <span class="fl">85.20</span>, <span class="fl">82.15</span>, <span class="fl">86.04</span>,</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>          <span class="fl">95.15</span>, <span class="fl">93.34</span>, <span class="fl">91.95</span>, <span class="fl">89.68</span>, <span class="fl">89.87</span>, <span class="fl">91.25</span>, <span class="fl">91.70</span>, <span class="fl">92.01</span>, <span class="fl">89.66</span>, <span class="fl">95.17</span>, <span class="fl">94.78</span>,</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>          <span class="fl">95.02</span>, <span class="fl">91.41</span>, <span class="fl">87.01</span>, <span class="fl">88.39</span>, <span class="fl">87.63</span>, <span class="fl">89.89</span>, <span class="fl">91.95</span>, <span class="fl">94.22</span>, <span class="fl">92.67</span>, <span class="fl">93.21</span>, <span class="fl">93.49</span>,</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>          <span class="fl">92.00</span>, <span class="fl">89.60</span>, <span class="fl">87.35</span>, <span class="fl">87.81</span>, <span class="fl">92.38</span>, <span class="fl">92.97</span>, <span class="fl">92.28</span>, <span class="fl">91.65</span>, <span class="fl">90.95</span>, <span class="fl">91.05</span>, <span class="fl">92.92</span>,</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>          <span class="fl">88.70</span>, <span class="fl">81.15</span>, <span class="fl">78.42</span>, <span class="fl">80.95</span>, <span class="fl">79.66</span>, <span class="fl">80.11</span>, <span class="fl">78.79</span>, <span class="fl">81.10</span>, <span class="fl">83.61</span>, <span class="fl">77.05</span>, <span class="fl">80.09</span>,</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>          <span class="fl">78.94</span>, <span class="fl">79.60</span>, <span class="fl">77.64</span>, <span class="fl">78.17</span>, <span class="fl">81.24</span>, <span class="fl">80.49</span>, <span class="fl">81.12</span>, <span class="fl">79.29</span>, <span class="fl">80.98</span>, <span class="fl">78.18</span>, <span class="fl">82.85</span>,</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>          <span class="fl">82.98</span>, <span class="fl">82.82</span>, <span class="fl">79.77</span>, <span class="fl">81.91</span>, <span class="fl">81.54</span>, <span class="fl">79.98</span>, <span class="fl">79.80</span>, <span class="fl">82.87</span>, <span class="fl">84.11</span>, <span class="fl">86.63</span>, <span class="fl">80.25</span>,</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>          <span class="fl">77.53</span>, <span class="fl">81.97</span>, <span class="fl">80.09</span>, <span class="fl">78.49</span>, <span class="fl">79.60</span>, <span class="fl">76.46</span>, <span class="fl">70.85</span>, <span class="fl">68.51</span>, <span class="fl">72.74</span>, <span class="fl">70.77</span>, <span class="fl">72.57</span>,</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>          <span class="fl">67.28</span>, <span class="fl">67.76</span>, <span class="fl">63.41</span>, <span class="fl">68.51</span>, <span class="fl">72.73</span>, <span class="fl">72.87</span>, <span class="fl">76.25</span>, <span class="fl">76.58</span>, <span class="fl">75.38</span>, <span class="fl">79.10</span>, <span class="fl">82.50</span>,</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>          <span class="fl">80.13</span>, <span class="fl">87.52</span>, <span class="fl">91.06</span>, <span class="fl">85.13</span>, <span class="fl">80.07</span>, <span class="fl">68.01</span>, <span class="fl">71.47</span>, <span class="fl">74.62</span>, <span class="fl">75.47</span>, <span class="fl">77.42</span>, <span class="fl">80.42</span>)</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Third dataset: number of companies closed</span></span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a>comp <span class="op">&lt;-</span> c(<span class="fl">2892.00</span>, <span class="fl">1181.00</span>, <span class="fl">1073.00</span>, <span class="fl">937.00</span>, <span class="fl">968.00</span>, <span class="fl">1120.00</span>, <span class="fl">1136.00</span>, <span class="fl">874.00</span>, <span class="fl">995.00</span>, <span class="fl">1002.00</span>, <span class="fl">1083.00</span>,</span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>          <span class="fl">2561.00</span>, <span class="fl">2734.00</span>, <span class="fl">1091.00</span>, <span class="fl">1000.00</span>, <span class="fl">992.00</span>, <span class="fl">712.00</span>, <span class="fl">980.00</span>, <span class="fl">1053.00</span>, <span class="fl">760.00</span>, <span class="fl">774.00</span>, <span class="fl">755.00</span>,</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>          <span class="fl">811.00</span>, <span class="fl">2039.00</span>, <span class="fl">2178.00</span>, <span class="fl">867.00</span>, <span class="fl">780.00</span>, <span class="fl">691.00</span>, <span class="fl">581.00</span>, <span class="fl">878.00</span>, <span class="fl">602.00</span>, <span class="fl">689.00</span>, <span class="fl">903.00</span>, <span class="fl">1096.00</span>,</span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>          <span class="fl">1167.00</span>, <span class="fl">1896.00</span>, <span class="fl">2142.00</span>, <span class="fl">815.00</span>, <span class="fl">720.00</span>, <span class="fl">810.00</span>, <span class="fl">861.00</span>, <span class="fl">1112.00</span>, <span class="fl">1211.00</span>, <span class="fl">1312.00</span>, <span class="fl">951.00</span>, <span class="fl">1375.00</span>,</span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>          <span class="fl">1228.00</span>, <span class="fl">2163.00</span>, <span class="fl">2417.00</span>, <span class="fl">682.00</span>, <span class="fl">780.00</span>, <span class="fl">623.00</span>, <span class="fl">652.00</span>, <span class="fl">752.00</span>, <span class="fl">1017.00</span>, <span class="fl">954.00</span>, <span class="fl">1183.00</span>, <span class="fl">1235.00</span>,</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>          <span class="fl">1112.00</span>, <span class="fl">2186.00</span>, <span class="fl">2092.00</span>, <span class="fl">665.00</span>, <span class="fl">693.00</span>, <span class="fl">776.00</span>, <span class="fl">946.00</span>, <span class="fl">756.00</span>, <span class="fl">1213.00</span>, <span class="fl">1011.00</span>, <span class="fl">1233.00</span>, <span class="fl">1272.00</span>,</span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>          <span class="fl">1103.00</span>, <span class="fl">2290.00</span>, <span class="fl">2292.00</span>, <span class="fl">865.00</span>, <span class="fl">821.00</span>, <span class="fl">427.00</span>, <span class="fl">517.00</span>, <span class="fl">1130.00</span>, <span class="fl">1514.00</span>, <span class="fl">1305.00</span>, <span class="fl">1582.00</span>, <span class="fl">1331.00</span>,</span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>          <span class="fl">986.00</span>, <span class="fl">3179.00</span>, <span class="fl">958.00</span>, <span class="fl">775.00</span>, <span class="fl">1015.00</span>, <span class="fl">1017.00</span>, <span class="fl">563.00</span>, <span class="fl">1269.00</span>, <span class="fl">1141.00</span>, <span class="fl">1442.00</span>, <span class="fl">1687.00</span>, <span class="fl">1599.00</span>,</span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a>          <span class="fl">1661.00</span>, <span class="fl">4057.00</span>, <span class="fl">1088.00</span>, <span class="fl">806.00</span>, <span class="fl">1424.00</span>, <span class="fl">2225.00</span>, <span class="fl">2053.00</span>, <span class="fl">2755.00</span>, <span class="fl">1662.00</span>, <span class="fl">1784.00</span>, <span class="fl">2066.00</span>,</span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>          <span class="fl">1799.00</span>, <span class="fl">1749.00</span>, <span class="fl">4891.00</span>, <span class="fl">1646.00</span>, <span class="fl">1225.00</span>, <span class="fl">1506.00</span>, <span class="fl">1458.00</span>, <span class="fl">2079.00</span>, <span class="fl">1938.00</span>, <span class="fl">2156.00</span>, <span class="fl">1784.00</span>,</span>
+<span id="cb8-38"><a href="#cb8-38" aria-hidden="true" tabindex="-1"></a>          <span class="fl">2096.00</span>, <span class="fl">2331.00</span>, <span class="fl">2497.00</span>, <span class="fl">6236.00</span>, <span class="fl">1759.00</span>)</span>
+<span id="cb8-39"><a href="#cb8-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-40"><a href="#cb8-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine all datasets into a data frame</span></span>
+<span id="cb8-41"><a href="#cb8-41" aria-hidden="true" tabindex="-1"></a>data <span class="op">&lt;-</span> data.frame(unemployment, cci, comp)</span>
+<span id="cb8-42"><a href="#cb8-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-43"><a href="#cb8-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate correlation matrix</span></span>
+<span id="cb8-44"><a href="#cb8-44" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">&lt;-</span> cor(data)</span>
+<span id="cb8-45"><a href="#cb8-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-46"><a href="#cb8-46" aria-hidden="true" tabindex="-1"></a><span class="co"># Print correlation matrix</span></span>
+<span id="cb8-47"><a href="#cb8-47" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(correlation_matrix)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>             unemployment        cci       comp
+unemployment    1.0000000 -0.2089484 -0.1232519
+cci            -0.2089484  1.0000000 -0.3682367
+comp           -0.1232519 -0.3682367  1.0000000
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="86"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:317}"
+id="jQW3nIG8s_X-" data-outputId="d0c64b0d-0e80-4f26-a2e8-ede4a05312e4">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>all_data$Tarih<span class="op">=</span>paste(all_data$Tarih,<span class="st">&quot;-01&quot;</span>,sep <span class="op">=</span><span class="st">&quot;&quot;</span>)  <span class="co"># In order to easily parse char data into date type.</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>all_data$Tarih<span class="op">=</span>as_date(all_data$Tarih, <span class="bu">format</span><span class="op">=</span><span class="st">&quot;%Y-%m-</span><span class="sc">%d</span><span class="st">&quot;</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>head(all_data)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Warning message:
+“ 1 failed to parse.”
+</code></pre>
+</div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.frame: 6 × 7</caption>
+<thead>
+	<tr><th></th><th scope=col>Tarih</th><th scope=col>TPYISGUCU2G8</th><th scope=col>TPTG2Y01</th><th scope=col>TPKAP2TOP.A</th><th scope=col>ihtiyac.kredisi</th><th scope=col>is.ilani</th><th scope=col>dusen.hisseler</th></tr>
+	<tr><th></th><th scope=col>&lt;date&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><th scope=row>1</th><td>2014-01-01</td><td>10.5</td><td>91.53853</td><td>2892</td><td>5</td><td>42</td><td>6</td></tr>
+	<tr><th scope=row>2</th><td>2014-02-01</td><td>10.5</td><td>89.21453</td><td>1181</td><td>4</td><td>45</td><td>5</td></tr>
+	<tr><th scope=row>3</th><td>2014-03-01</td><td> 9.4</td><td>92.42525</td><td>1073</td><td>4</td><td>38</td><td>0</td></tr>
+	<tr><th scope=row>4</th><td>2014-04-01</td><td> 8.8</td><td>97.36987</td><td> 937</td><td>4</td><td>40</td><td>0</td></tr>
+	<tr><th scope=row>5</th><td>2014-05-01</td><td> 8.4</td><td>95.11075</td><td> 968</td><td>4</td><td>39</td><td>0</td></tr>
+	<tr><th scope=row>6</th><td>2014-06-01</td><td> 9.0</td><td>93.49903</td><td>1120</td><td>6</td><td>45</td><td>3</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:283}"
+id="JP-nk_DwU0Vh" data-outputId="7b7eacb3-3d30-46a1-8ad1-5faaa0cb9598">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>all_data<span class="op">=</span>setDT(all_data) <span class="co"># convert dataframe to data table to make data manipulation easy</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>head(all_data)</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.table: 6 × 7</caption>
+<thead>
+	<tr><th scope=col>Tarih</th><th scope=col>TPYISGUCU2G8</th><th scope=col>TPTG2Y01</th><th scope=col>TPKAP2TOP.A</th><th scope=col>ihtiyackredisi</th><th scope=col>isilani</th><th scope=col>dusenhisseler</th></tr>
+	<tr><th scope=col>&lt;date&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>2014-01-01</td><td>10.5</td><td>91.53853</td><td>2892</td><td>5</td><td>42</td><td>6</td></tr>
+	<tr><td>2014-02-01</td><td>10.5</td><td>89.21453</td><td>1181</td><td>4</td><td>45</td><td>5</td></tr>
+	<tr><td>2014-03-01</td><td> 9.4</td><td>92.42525</td><td>1073</td><td>4</td><td>38</td><td>0</td></tr>
+	<tr><td>2014-04-01</td><td> 8.8</td><td>97.36987</td><td> 937</td><td>4</td><td>40</td><td>0</td></tr>
+	<tr><td>2014-05-01</td><td> 8.4</td><td>95.11075</td><td> 968</td><td>4</td><td>39</td><td>0</td></tr>
+	<tr><td>2014-06-01</td><td> 9.0</td><td>93.49903</td><td>1120</td><td>6</td><td>45</td><td>3</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell markdown" id="g9Tx57lFU_rJ">
+<p>Lets construct the summary of the data in order to correctly find
+dimensions of following plots.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:255}"
+id="RfMX-VOiU_G9" data-outputId="16e716a1-f90c-479b-f575-c5ebfa15a478">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>summary_data<span class="op">=</span>summary(all_data)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>summary_data</span></code></pre></div>
+<div class="output display_data">
+<pre><code>     Tarih             TPYISGUCU2G8      TPTG2Y01      TPKAP2TOP.A    
+ Min.   :2014-01-01   Min.   : 8.20   Min.   :63.41   Min.   : 427.0  
+ 1st Qu.:2016-06-23   1st Qu.:10.00   1st Qu.:79.24   1st Qu.: 866.5  
+ Median :2018-12-16   Median :10.75   Median :83.86   Median :1125.0  
+ Mean   :2018-12-16   Mean   :11.17   Mean   :84.14   Mean   :1404.8  
+ 3rd Qu.:2021-06-08   3rd Qu.:12.53   3rd Qu.:91.11   3rd Qu.:1757.8  
+ Max.   :2023-12-01   Max.   :15.10   Max.   :97.37   Max.   :6236.0  
+ ihtiyackredisi      isilani       dusenhisseler   
+ Min.   :  4.00   Min.   : 29.00   Min.   :  0.00  
+ 1st Qu.:  5.00   1st Qu.: 45.00   1st Qu.:  3.00  
+ Median :  7.00   Median : 51.00   Median : 10.00  
+ Mean   : 10.06   Mean   : 55.15   Mean   : 21.92  
+ 3rd Qu.: 10.00   3rd Qu.: 63.25   3rd Qu.: 41.00  
+ Max.   :100.00   Max.   :100.00   Max.   :100.00  </code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:283}"
+id="8HyyuGEzWHj6" data-outputId="8f46e7fa-04bb-4334-b4af-94b1d1e50a80">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>all_data[,year:<span class="op">=</span><span class="bu">format</span>(Tarih,<span class="st">&quot;%Y&quot;</span>)]   <span class="co">#  add year in order to make things easier while plotting.</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>head(all_data)</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.table: 6 × 8</caption>
+<thead>
+	<tr><th scope=col>Tarih</th><th scope=col>TPYISGUCU2G8</th><th scope=col>TPTG2Y01</th><th scope=col>TPKAP2TOP.A</th><th scope=col>ihtiyackredisi</th><th scope=col>isilani</th><th scope=col>dusenhisseler</th><th scope=col>year</th></tr>
+	<tr><th scope=col>&lt;date&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>2014-01-01</td><td>10.5</td><td>91.53853</td><td>2892</td><td>5</td><td>42</td><td>6</td><td>2014</td></tr>
+	<tr><td>2014-02-01</td><td>10.5</td><td>89.21453</td><td>1181</td><td>4</td><td>45</td><td>5</td><td>2014</td></tr>
+	<tr><td>2014-03-01</td><td> 9.4</td><td>92.42525</td><td>1073</td><td>4</td><td>38</td><td>0</td><td>2014</td></tr>
+	<tr><td>2014-04-01</td><td> 8.8</td><td>97.36987</td><td> 937</td><td>4</td><td>40</td><td>0</td><td>2014</td></tr>
+	<tr><td>2014-05-01</td><td> 8.4</td><td>95.11075</td><td> 968</td><td>4</td><td>39</td><td>0</td><td>2014</td></tr>
+	<tr><td>2014-06-01</td><td> 9.0</td><td>93.49903</td><td>1120</td><td>6</td><td>45</td><td>3</td><td>2014</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell markdown" id="_1l5NncUVIxY">
+<p>** 2. Unemployment Rates**</p>
+</div>
+<div class="cell markdown" id="DYLrevgt7fjW">
+<p>In this part of the report, unemployment rates will be examined from
+2014 to 2023. To get better insights from the data we have, we will use
+some plots and visualize.</p>
+<p>Unemployment rate can be seen in the following as a line plot:</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="ZPf9veKaVMie" data-outputId="0f1f94d6-f70c-4301-98ad-a10576678903">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>Tarih, y<span class="op">=</span>TPYISGUCU2G8)) <span class="op">+</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  geom_line()<span class="op">+</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Unemployment Rate vs Year&quot;</span>,</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;Unemployment Rate&quot;</span>)<span class="op">+</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))<span class="op">+</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>  scale_x_date(date_breaks <span class="op">=</span> <span class="st">&quot;12 month&quot;</span>,</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>               date_labels <span class="op">=</span> <span class="st">&quot;%Y&quot;</span>,</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>               date_minor_breaks <span class="op">=</span> <span class="st">&quot;1 month&quot;</span>) <span class="op">+</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">16</span>,by <span class="op">=</span> <span class="fl">0.5</span>),</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">16</span>,by <span class="op">=</span> <span class="fl">0.1</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/4ce9924947af08fe98346dfd5c26b0bd0a23439b.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="87syf3Ja0cNt">
+<p>The data has periodic waves with an overall increasing trend until
+2020, and a relatively steeper decrease trend after 2020. The main
+reason behind this cyclical pattern is the seasonal workers such as
+employees of the tourism sector, agricultural workers etc.To be able to
+see the increase and decrease in the data more clearly, it may be
+logical to print boxplots for each year since their some statistics such
+as median,mean etc. will give us some insights to compare different
+years.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="0rye49ow0bz1" data-outputId="cb115434-cf21-45a1-8d6f-3cefd4321347">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>year, y<span class="op">=</span>TPYISGUCU2G8))<span class="op">+</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  geom_boxplot(aes(y<span class="op">=</span>TPYISGUCU2G8,fill<span class="op">=</span>year))<span class="op">+</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">16</span>,by <span class="op">=</span> <span class="fl">0.5</span>),</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">16</span>,by <span class="op">=</span> <span class="fl">0.1</span>)) <span class="op">+</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  labs(title<span class="op">=</span><span class="st">&quot;Unemployment rate vs Year&quot;</span>,</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;Unemployment Rate&quot;</span>,</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Date&quot;</span>) <span class="op">+</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/ee3880b35e621bafeb802e62518d329f0c12ed4a.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="1H_0-Ges1XY5">
+<p>The gradual increase in unemployment rates was evident annually until
+2018. The unemployment rate increased much more between 2018 and 2019
+than in previous years. However, there was a slight decline in rates
+starting from 2020. There is a high level of fluctuation in the median
+levels. Given that the data is recorded monthly, there are typically 12
+data points for each year, to be aware of the fluctuations within a
+year, distribution of rates in a year may be examined.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="gIF7u6sA1VrS" data-outputId="bffd4165-cecf-47f7-9e58-0b16c4139d06">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>TPYISGUCU2G8)) <span class="op">+</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  geom_histogram(bins<span class="op">=</span><span class="dv">50</span>,alpha<span class="op">=</span><span class="fl">0.6</span>,aes(color<span class="op">=</span>year,fill<span class="op">=</span>year)) <span class="op">+</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  facet_wrap(year<span class="op">~</span>.,scales<span class="op">=</span><span class="st">&quot;free_x&quot;</span>,ncol <span class="op">=</span> <span class="dv">3</span>) <span class="op">+</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Unemployment Rates vs month&quot;</span>,</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;Frequency&quot;</span>,</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Unemployment Rate&quot;</span>)<span class="op">+</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/b41d94725ecdb6dab97f7bc6c04d10063e7d4645.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="pnIm9gD6X0cc">
+<p>To be able to visualize the fluctuations of unemployment rates within
+a year, we will use a histogram. Observing the histogram we can deduce
+that X-axes values have been increasing and we further observe wide
+range of distribution for highly fluctuated years.</p>
+</div>
+<div class="cell markdown" id="Gi0QbWSUBgb9">
+<p><strong>3. Consumer Confidence Index</strong></p>
+</div>
+<div class="cell markdown" id="3OQKWl60Bkbq">
+<p>In this section, we will utilize same plots as the previous section
+to analyze the relation between unemployment and consumer confidence
+index. As mentioned in the introduction, we anticipate a significant
+degree of interdependence between these factors.</p>
+<p>First, observe the line graph for cci:</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="-N6w2NMUXzA-" data-outputId="580dcd15-b87d-47d7-a15f-b886c77da7cc">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>Tarih, y<span class="op">=</span>TPTG2Y01)) <span class="op">+</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  geom_line()<span class="op">+</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Consumer Confidence Line Plot&quot;</span>,</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;CCI&quot;</span>)<span class="op">+</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))<span class="op">+</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  scale_x_date(date_breaks <span class="op">=</span> <span class="st">&quot;12 month&quot;</span>,</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>               date_labels <span class="op">=</span> <span class="st">&quot;%Y&quot;</span>,</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>               date_minor_breaks <span class="op">=</span> <span class="st">&quot;1 month&quot;</span>) <span class="op">+</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">50</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">0.8</span>),</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">50</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">0.2</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/edf932482e842705b5454aa4743a1e9b56197daf.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="wji151gmCocG">
+<p>We observe a gradual overall decrease in the consumer confidence
+levels with fluctiations until 2022 and a rapid increase after 2022
+until the next year. Therefore as stated in the introduction section, we
+can observe a negative relation between consumer confidence levels and
+unemployment rates. We can observe a rapid decrease in cci level in 2018
+and conversely a rapid increase in the unemployment rate during the same
+period.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="Syjlx6oU5etW" data-outputId="3664557d-124d-4c54-802e-05b453aa0309">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>year, y<span class="op">=</span>TPTG2Y01))<span class="op">+</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  geom_boxplot(aes(y<span class="op">=</span>TPTG2Y01,fill<span class="op">=</span>year))<span class="op">+</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">50</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">0.8</span>),</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">50</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">0.2</span>)) <span class="op">+</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Consumer Confidence Line Plot&quot;</span>,</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>        y <span class="op">=</span> <span class="st">&quot;CCI&quot;</span>)<span class="op">+</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/b624ddb124aef4ff47577ffccc5702c1c24771ba.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="OYTkpPEXOBZ-">
+<p>Similar patterns can be observed in the boxplot. Both of these plots
+support the idea that there is a negative relation between unemployment
+rates and consumer condifence index.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="vQWwTL115ooA" data-outputId="6ef6971c-cb48-447d-9881-94090c5e87d9">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>TPTG2Y01)) <span class="op">+</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  geom_histogram(bins<span class="op">=</span><span class="dv">50</span>,alpha<span class="op">=</span><span class="fl">0.6</span>,aes(color<span class="op">=</span>year,fill<span class="op">=</span>year)) <span class="op">+</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  facet_wrap(year<span class="op">~</span>.,scales<span class="op">=</span><span class="st">&quot;free_x&quot;</span>,ncol <span class="op">=</span> <span class="dv">3</span>) <span class="op">+</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Consumer Confidence Line Plot&quot;</span>,</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>        y <span class="op">=</span> <span class="st">&quot;CCI&quot;</span>)<span class="op">+</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/148f6e01527756456a60358fcb56b5505ca83724.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="XT4KvQH1ZA-S">
+<p><strong>4. Business Closure Rates</strong></p>
+</div>
+<div class="cell markdown" id="YyrunMFGP_iU">
+<p>So far we observed a negative relation between cci and unemployment
+rates. In this section we will analyse business closure rates which may
+give us evidence to further suppport our statements in the introduction
+section.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="IDw1MQjIZASr" data-outputId="83c943c0-00b9-479f-ca84-4d2692243f14">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>Tarih, y<span class="op">=</span>TPKAP2TOP.A)) <span class="op">+</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  geom_line()<span class="op">+</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Number of Closed Companies Line Plot&quot;</span>,</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;comp&quot;</span>)<span class="op">+</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))<span class="op">+</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  scale_x_date(date_breaks <span class="op">=</span> <span class="st">&quot;12 month&quot;</span>,</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>               date_labels <span class="op">=</span> <span class="st">&quot;%Y&quot;</span>,</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>               date_minor_breaks <span class="op">=</span> <span class="st">&quot;1 month&quot;</span>) <span class="op">+</span></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">50</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">0.4</span>),</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">50</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">0.1</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/0139c7a03d81c378cb45d0401b14c9ac01129014.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="KCzfTZgRP1y9">
+<p>Contrary to our predictions, business closure plot is not very
+similar to the unemployment graph or counter-related to the consumer
+confidence levels. We can observe this contingency specially in
+2022,where we would expect a decrease in business closure rates since
+consumer confident levels were increasing throughout that year.</p>
+</div>
+<div class="cell markdown" id="78L7GzKyYYtJ">
+<p>Boxplot for business closure levels throughout the years can be
+observed below.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="a4ps6jHC0YWq" data-outputId="c0810045-c6d8-4653-e51e-1d813b0da403">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>year, y<span class="op">=</span>TPKAP2TOP.A))<span class="op">+</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  geom_boxplot(aes(y<span class="op">=</span>TPKAP2TOP.A,fill<span class="op">=</span>year))<span class="op">+</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">50</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">0.4</span>),</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">50</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">0.1</span>)) <span class="op">+</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Number of Closed Companies Line Plot&quot;</span>,</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;comp&quot;</span>)<span class="op">+</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/87aca618588a71244fb170ba925a7c9b5c714881.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="W-YvGkR-Yijs">
+<p>Histogram for business closure levels throughout the years can be
+observed below.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="9Ntd_j4l5_vb" data-outputId="e97a5599-520d-4425-8e97-7fcc0e1a7123">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>TPKAP2TOP.A)) <span class="op">+</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  geom_histogram(bins<span class="op">=</span><span class="dv">50</span>,alpha<span class="op">=</span><span class="fl">0.6</span>,aes(color<span class="op">=</span>year,fill<span class="op">=</span>year)) <span class="op">+</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  facet_wrap(year<span class="op">~</span>.,scales<span class="op">=</span><span class="st">&quot;free_x&quot;</span>,ncol <span class="op">=</span> <span class="dv">3</span>) <span class="op">+</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Number of Closed Companies Line Plot&quot;</span>,</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;comp&quot;</span>)<span class="op">+</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/8cef6ec36fac4d2f20c891d389df2a96f296f9f0.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="AEllkkNhbUlW">
+<p><strong>5. Comparison with trend data</strong></p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="a5PpCrokbSzx" data-outputId="e88b7608-a634-4b54-f625-49fc952ae2ce">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>Tarih, y<span class="op">=</span>ihtiyackredisi)) <span class="op">+</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  geom_line()<span class="op">+</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&quot;Search volume of </span><span class="ch">\&quot;</span><span class="st">ihtiyaç kredisi</span><span class="ch">\&quot;</span><span class="st"> vs Year&quot;</span>,</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Date&quot;</span>,</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;Search Volume of &#39;ihtiyaç kredisi&#39;&quot;</span>)<span class="op">+</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))<span class="op">+</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>  scale_x_date(date_breaks <span class="op">=</span> <span class="st">&quot;12 month&quot;</span>,</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>               date_labels <span class="op">=</span> <span class="st">&quot;%Y&quot;</span>,</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>               date_minor_breaks <span class="op">=</span> <span class="st">&quot;1 month&quot;</span>) <span class="op">+</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">2.0</span>),</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">1.6</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/1e2747137439b3b1677e0e74bcbcbec6dc2c487e.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="OD_gHq-2g78h">
+<p>When we compare Consumer confidence levels and search volume for
+consumer loans, we expect negative corelation since as the consumer
+confidence levels deacrease, more people will have to utilize some kind
+of loan. To test whether this idea is reasonable, we can compare the
+plots of the two series. Once we compare the plots, we can't find enough
+evidence of negative corelation to support our idea.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="EFnNv1BSb5f3" data-outputId="62155966-b864-461e-a153-164f69a3973b">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>Tarih, y<span class="op">=</span>isilani)) <span class="op">+</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  geom_line()<span class="op">+</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&#39;Search volume of &quot;iş ilanı&quot; vs Year&#39;</span>,</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;Search Volume of &#39;İş ilanı&#39;&quot;</span>)<span class="op">+</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))<span class="op">+</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>  scale_x_date(date_breaks <span class="op">=</span> <span class="st">&quot;12 month&quot;</span>,</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>               date_labels <span class="op">=</span> <span class="st">&quot;%Y&quot;</span>,</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>               date_minor_breaks <span class="op">=</span> <span class="st">&quot;1 month&quot;</span>) <span class="op">+</span></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">2.0</span>),</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">1.6</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/da9d6117a0eb2bd5ecd7bc587fe50c72fc24789a.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="h8w-_IJ9iESO">
+<p>When comparing unemployment rates and search volume for available
+jobs (in this case, "iş ilanı" ), we expect to see a positive relation.
+Once we observe the two plots it can be seen that unemployment rates
+have been rapidly increasing from late 2017 to the beginning of 2019;
+similarly, search volume has been gradually increasing during the period
+mentioned.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:437}"
+id="4qVR49flb6zq" data-outputId="fee3a98b-eea9-470c-9efc-4a8da296c139">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>ggplot(all_data, aes(x<span class="op">=</span>Tarih, y<span class="op">=</span>dusenhisseler)) <span class="op">+</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  geom_line()<span class="op">+</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  labs(title <span class="op">=</span> <span class="st">&#39;Search volume of &quot;düşen hisseler&quot; vs Year&#39;</span>,</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>       x <span class="op">=</span> <span class="st">&quot;Dates&quot;</span>,</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>       y <span class="op">=</span> <span class="st">&quot;Search Volume of &#39;Düşen Hisseler&#39;&quot;</span>)<span class="op">+</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>  theme(plot.title <span class="op">=</span> element_text(hjust<span class="op">=</span><span class="fl">0.5</span>))<span class="op">+</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>  scale_x_date(date_breaks <span class="op">=</span> <span class="st">&quot;12 month&quot;</span>,</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>               date_labels <span class="op">=</span> <span class="st">&quot;%Y&quot;</span>,</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>               date_minor_breaks <span class="op">=</span> <span class="st">&quot;1 month&quot;</span>) <span class="op">+</span></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>  scale_y_continuous(breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">2.0</span>),</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>                     minor_breaks <span class="op">=</span> seq(<span class="im">from</span> <span class="op">=</span> <span class="dv">0</span>,to <span class="op">=</span> <span class="dv">100</span>,by <span class="op">=</span> <span class="fl">1.6</span>))</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4e29e022badd4a26ad4d2dfd4551e7d6/510ba6ea7c38c9ec5f5386f9f4fc954af18fd094.png"
+width="420" height="420" /></p>
+</div>
+</div>
+<div class="cell markdown" id="voD4UuNQjCjC">
+<p>To see if the rate of closed companies is related to the search
+volume of decreasing stock prices in any way, we compare their plots
+over time. While both increase with time, there is no clear relation
+between the two datasets.</p>
+</div>
+<div class="cell markdown" id="-LtvpfXEjmIl">
+<p><strong>6.Conclusion</strong></p>
+</div>
+<div class="cell markdown" id="MbXvOEPnjr1H">
+<p>This report entails an examination of various datasets and their
+interrelations. To conclude our findings, we should mention that trend
+data did not really fit our predictions however we were able to observe
+negative relation between unemployment rates and consumer condifence
+levels.</p>
+</div>
+</body>
+</html>
