@@ -10,4 +10,4 @@
 ### Project
 
 * [Html Report](https://bu-ie-360.github.io/spring24-beyzatoker/project.html)
-* [Source Code](https://github.com/BU-IE-360/spring24-beyzatoker/IE360_Project.ipynb)
+* [Source Code](https://github.com/BU-IE-360/spring24-beyzatoker/blob/main/IE360_Project.ipynb)
