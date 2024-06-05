@@ -9,4 +9,4 @@
 
 ### Project
 
-* [Html Report] (https://github.com/BU-IE-360/spring24-beyzatoker/blob/main/project.html#:~:text=index.md-,project,-.html)
+* [Html Report] (https://bu-ie-360.github.io/spring24-beyzatoker/project.html)
